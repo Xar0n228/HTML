@@ -1,0 +1,121 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+	display: block;
+}
+
+/*body {*/
+	/*line-height: 1.2;*/
+/*}*/
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*#_grafik{*/
+	/*padding: 60px;*/
+	/*background-repeat: no-repeat;*/
+	/*background-image: url(fon.jpg),*/
+					  /*url(1.png); !* GIF, JPG, PNG, SVG *!*/
+/*}*/
+
+
+p.test1{
+	width: 500px;
+	border: 1px solid #003;
+	padding: 3px;
+	transform: scale(1);
+}
+
+a.button {
+	padding: 3px;
+	color: black;
+    height: 80px;
+	background-color: #FF6603;
+	border: 5px solid #660034;
+	transition-property: color, background-color, border-color;
+	transition-duration: 1s, 1s, 2s;
+	transition-delay: 1s;
+}
+a.button:hover {
+	color: white;
+	background-color: #660034;
+	border-color: #FF6603;
+}
+
+
+/*#_form{*/
+	/*width: 960px;*/
+	/*margin: 0 auto;*/
+	/*background-color: #d44;*/
+	/*color: rgb(255,255,255);*/
+	/*font-family: Verdana, Geneva, sans-serif;*/
+/*}*/
+
+
+h1{
+	font-size: 2em;
+	border-bottom: dotted 2px #fff;
+	padding-bottom: 5px;
+}
+p{
+	margin-bottom: 20px;
+}
+.subform{
+	font-size: 1.1em;
+	color: #fff;
+
+}
+.subform label{
+	display: inline-block;
+	width: 230px;
+	vertical-align: top;
+	text-align: left;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.subform input[type="submit"]{
+	margin-left: 246px;
+	padding: 12px 24px;
+	font-size: 1em;
+	background: rgb(0, 106, 160);
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 0 0 3px #fff;
+	color: #fff;
+}
+.subform input[type="radio"]{
+	margin-left:60px;
+}
+.subform input[type="text"], .subform input[type="email"], .subform textarea{
+	border-radius:4px;
+	border: none;
+	background:#fff;
+	color: red;
+	box-shadow: 0 0 3px #fff;
+	padding: 7px;
+	width: 550px;
+}
+.subform input[type="text"]:focus, .subform input[type="email"]:focus, .subform textarea:focus{
+	background: rgb(0, 106, 160);
+	color:#000;
+}

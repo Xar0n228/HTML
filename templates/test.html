@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+<style>
+	@media(min-width: 768px){
+		.main{
+			display: flex;
+			/*align-items: flex-start;
+			align-items: center;
+			flex-direction: column;*/
+		}
+		.main-2{
+			display: flex;
+			justify-content: space-around;
+		}
+		.boxes{
+		width: 28%;
+		}
+	}
+	.main div, .main-2 div{
+		border: 1px solid #234cc2;
+		padding: 12px;
+	}
+	.box-1{
+		flex:1;
+		order:3;
+	}
+	.box-2{
+		flex:2;
+		order:1;
+	}
+	.box-3{
+		flex:1;
+		order:2;
+	}
+
+</style>
+
+<div  id="_grafik" class="main">
+	<div class="box-1">
+		<h2>Box one</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae nihil, at, maxime veniam natus. Minus vero qui maxime, unde vel perferendis iure doloremque beatae repellendus! Repellat fugit sapiente autem.</p>
+	</div>
+	<div class="box-2">
+		<h2>Box two</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae nihil, at, maxime veniam natus. Minus vero qui maxime, unde vel perferendis iure doloremque beatae repellendus! Repellat fugit sapiente autem.</p>
+
+	</div>
+	<div class="box-3">
+		<h2>Box three</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae nihil, at, maxime veniam natus. Minus vero qui maxime, unde vel perferendis iure doloremque beatae repellendus! Repellat fugit sapiente autem.</p>
+	</div>
+</div>
+<article id="_animation">
+		<h1>Потрясающий мир CSS</h1>
+		<p class="test1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci <strong>sdvsv sfs  sregf srgr </strong> velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+		<a href="https://google.com"><span class="button2"></span></a>
+		<p class="test2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+		<a class="button" href="https://google.com">Google</a>
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, <span>qui dolorem ipsum</span> quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+</article>
+<div class="main-2">
+	<div class="boxes">
+		<h2>Box four</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae nihil, at, maxime veniam natus. Minus vero qui maxime, unde vel perferendis iure doloremque beatae repellendus! Repellat fugit sapiente autem.</p>
+	</div>
+	<div class="boxes">
+		<h2>Box five</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae nihil, at, maxime veniam natus. Minus vero qui maxime, unde vel perferendis iure doloremque beatae repellendus! Repellat fugit sapiente autem.</p>
+
+	</div>
+	<div class="boxes">
+		<h2>Box six</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae nihil, at, maxime veniam natus. Minus vero qui maxime, unde vel perferendis iure doloremque beatae repellendus! Repellat fugit sapiente autem.</p>
+	</div>
+</div>
+<article>
+		<h1>Потрясающий мир CSS</h1>
+
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci <strong>sdvsv sfs  sregf srgr </strong> velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, <span>qui dolorem ipsum</span> quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+</article>
+<article id="_form">
+		<h1>Форма ученика HTML</h1>
+		<form method="post" action="" class="subform">
+			<p>
+				<label for="name">Как вас зовут?</label>
+				<input type="text" name="name" id="name">
+			</p>
+			<p>
+				<label for="email">Введите вашу почту</label>
+				<input type="email" name="email" id="email">
+			</p>
+			<p>Есть опыт изучени:
+				<label>
+					<input type="radio" name="skill" value="1">
+					JavaScript
+				</label>
+				<label>
+					<input type="radio" name="skill" value="2">
+					HTML & CSS
+				</label>
+				<label>
+					<input type="radio" name="skill" value="3">
+					PHP
+				</label>
+			</p>
+			<p>
+				<label for="goal">Какую цель преследую:</label>
+				<select name="goal" id="goal">
+					<option>Хочу сменить профессю</option>
+					<option>Повысить скилл</option>
+					<option>Как хобби</option>
+					<option>Хочу быть фрилансером</option>
+				</select>
+			</p>
+			<p>
+				<label for="comments">Ваше пожелание</label>
+				<textarea name="comments" cols="40" rows="5" id="comments">
+				</textarea>
+			</p>
+			<p>
+				<input type="submit" value="Отправить">
+			</p>
+		</form>
+</article>
+
+
+</body>
+</html>
